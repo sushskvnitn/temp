@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo bg</title>
+    <style>
+     .cover {
+        width:100%;
+        height : 100vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+     }
+    .cover video{
+        position:absolute;
+        top:0;
+        left:0;
+        object-fit: cover;
+        width:0%;
+        height:0%;
+        pointer-events:none;
+        z-index:-1000;
+    }
+
+    </style>
+</head>
+<body>
+    <h1>this is demo for your project that we can add mp4 video <br> like this insted of mp3 as mp3 autoplay <br> is not available for<br> the recent browsers </h1>
+    <div class="cover">
+    <video autoplay loop  > 
+        <source src=https://sushskvnitn.github.io/temp/y2mate.com%20-%20Love%20Nwantiti%20Radio%20Edit_v144P.mp4 type=video> 
+    </video>
+    </div>
+
+</body>
+</html>
